@@ -29,17 +29,17 @@ string solution(vector<string> participant, vector<string> completion)
 
 	for (int i = 0; i < participant.size(); ++i)
 	{
-		for (int j = 0; j < completion.size(); ++j)
+		for (int j = 0; j < completion.size(); ++i)
 		{
 			if (participant[i] == completion[j])
 			{
-				continue;
-			}
-			else
-			{
-				answer = completion[j];
+				completion.erase(completion.begin() + j);
+				break;
 			}
 		}
+
+		answer = participant[i];
+
 	}
 
 	cout << answer << endl;
