@@ -13,36 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\include">
+      <UniqueIdentifier>{df1dd9d1-7f84-44e9-9082-9c99c0bec212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00. MainUpdate">
+      <UniqueIdentifier>{cc9d2111-4f65-4193-b035-496968ef6263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{b6f9ba9c-4786-4947-9e27-0a02a570c329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\PlayerController">
+      <UniqueIdentifier>{74db89fb-a00b-49f3-a4d6-384d2d768df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene">
+      <UniqueIdentifier>{d202ee89-0d78-4ed6-9524-b028ea490402}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="MainUpdate.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\00. MainUpdate</Filter>
     </ClCompile>
     <ClCompile Include="Object.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\01. Object</Filter>
     </ClCompile>
     <ClCompile Include="PlayerController.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\01. Object\PlayerController</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\02. Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers.h">
+      <Filter>헤더 파일\include</Filter>
+    </ClInclude>
     <ClInclude Include="MainUpdate.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\00. MainUpdate</Filter>
     </ClInclude>
     <ClInclude Include="Object.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\01. Object</Filter>
     </ClInclude>
     <ClInclude Include="PlayerController.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\01. Object\PlayerController</Filter>
     </ClInclude>
     <ClInclude Include="Scene.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\02. Scene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

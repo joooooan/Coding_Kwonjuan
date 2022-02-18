@@ -2,8 +2,12 @@
 #include "Object.h"
 #include "PlayerController.h"
 
+class PlayerController;
 class Scene : public Object
 {
+private:
+	PlayerController* player;
+
 public:
 	void Start();
 	void Update();

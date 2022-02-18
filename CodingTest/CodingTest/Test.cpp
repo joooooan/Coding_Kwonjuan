@@ -27,18 +27,23 @@ string solution(vector<string> participant, vector<string> completion)
 {
 	string answer = "";
 
+	vector<string> answers;
+
 	for (int i = 0; i < participant.size(); ++i)
 	{
 		for (int j = 0; j < completion.size(); ++i)
 		{
 			if (participant[i] == completion[j])
 			{
-				completion.erase(completion.begin() + j);
-				break;
+				
 			}
+			else
+			{
+				answers.push_back(participant[i]);
+;			}
 		}
 
-		answer = participant[i];
+		
 
 	}
 
